@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  AnimatedGif
+
+  Created by Marco Köhler on 02.11.18.
+  Copyright © 2018 Marco Köhler. All rights reserved.
+*/
+
+"dir" = "(directory)";
+"titleopendlg" = "AnimatedGIF: Select File or Directory";
+"nogif" = "No GIF file found.";
+"select" = "Please select a file or folder.";
+"renderGL" = "Rendering with OpenGL";
+"renderMTL" = "Rendering with Metal";
+"renderNO" = "No Renderer found";

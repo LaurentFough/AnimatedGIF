@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC1777EC20A1E95D0043C210 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = CC1777E920A1E7DF0043C210 /* LICENSE.md */; };
+		CC24BA9B1BF124350045BDC7 /* AnimatedGIFView.h in Headers */ = {isa = PBXBuildFile; fileRef = CC24BA9A1BF124350045BDC7 /* AnimatedGIFView.h */; };
+		CC24BA9D1BF124350045BDC7 /* AnimatedGIFView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC24BA9C1BF124350045BDC7 /* AnimatedGIFView.m */; };
+		CC4486F21C8A3A50008520D2 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4486F01C8A3A50008520D2 /* thumbnail.png */; };
+		CC4486F31C8A3A50008520D2 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4486F11C8A3A50008520D2 /* thumbnail@2x.png */; };
+		CC52A2E8224ECC3D00ADC1D0 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = CC52A2E7224ECC3D00ADC1D0 /* Shaders.metal */; };
+		CC52A2EA224ECD2400ADC1D0 /* Structs.h in Headers */ = {isa = PBXBuildFile; fileRef = CC52A2E9224ECD0E00ADC1D0 /* Structs.h */; };
+		CC5E750C20FBCCBF0010ACDE /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5E750E20FBCCBF0010ACDE /* About.xib */; };
+		CCC3B9991C788F8E00FBE423 /* Options.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC3B99B1C788F8E00FBE423 /* Options.xib */; };
+		CCED59B6225F92CA00B53CF0 /* AnimatedGIFWindowClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = CCED59B5225F92CA00B53CF0 /* AnimatedGIFWindowClasses.h */; };
+		CCEF76C8218C83DB0050F7C9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCEF76C6218C83DB0050F7C9 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71B93EBF228B7E8E00D5E409 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/About.strings; sourceTree = "<group>"; };
+		71B93EC1228B7EB700D5E409 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Options.strings; sourceTree = "<group>"; };
+		CC1073C41C78947900AC5F63 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/Options.xib; sourceTree = "<group>"; };
+		CC1777E920A1E7DF0043C210 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = SOURCE_ROOT; };
+		CC24BA951BF124350045BDC7 /* AnimatedGIF.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedGIF.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC24BA991BF124350045BDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC24BA9A1BF124350045BDC7 /* AnimatedGIFView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimatedGIFView.h; sourceTree = "<group>"; };
+		CC24BA9C1BF124350045BDC7 /* AnimatedGIFView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedGIFView.m; sourceTree = "<group>"; };
+		CC39BE001EDAD834008FCA5C /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/Options.xib; sourceTree = "<group>"; };
+		CC4486F01C8A3A50008520D2 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbnail.png; path = extra/thumbnail.png; sourceTree = SOURCE_ROOT; };
+		CC4486F11C8A3A50008520D2 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumbnail@2x.png"; path = "extra/thumbnail@2x.png"; sourceTree = SOURCE_ROOT; };
+		CC52A2E7224ECC3D00ADC1D0 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		CC52A2E9224ECD0E00ADC1D0 /* Structs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Structs.h; sourceTree = "<group>"; };
+		CCABA29F218921D300E30E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Options.xib; sourceTree = "<group>"; };
+		CCABA2A0218921D400E30E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/About.xib; sourceTree = "<group>"; };
+		CCC3B99C1C788F9800FBE423 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/Options.xib; sourceTree = "<group>"; };
+		CCC8F19B20FBD471007C9FAE /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/About.xib; sourceTree = "<group>"; };
+		CCC8F19C20FBD474007C9FAE /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/About.xib; sourceTree = "<group>"; };
+		CCC8F19D20FBD476007C9FAE /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/About.xib; sourceTree = "<group>"; };
+		CCED59B5225F92CA00B53CF0 /* AnimatedGIFWindowClasses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimatedGIFWindowClasses.h; sourceTree = "<group>"; };
+		CCEF76C7218C83DB0050F7C9 /* de */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CCEF76C9218C83ED0050F7C9 /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CCEF76CA218C83F80050F7C9 /* ja */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; usesTabs = 0; };
+		CCEF76CC218C8AFA0050F7C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC24BA911BF124350045BDC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC24BA8B1BF124350045BDC7 = {
+			isa = PBXGroup;
+			children = (
+				CC24BA971BF124350045BDC7 /* AnimatedGIF */,
+				CC24BA961BF124350045BDC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC24BA961BF124350045BDC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC24BA951BF124350045BDC7 /* AnimatedGIF.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC24BA971BF124350045BDC7 /* AnimatedGIF */ = {
+			isa = PBXGroup;
+			children = (
+				CC24BA9A1BF124350045BDC7 /* AnimatedGIFView.h */,
+				CC24BA9C1BF124350045BDC7 /* AnimatedGIFView.m */,
+				CCED59B5225F92CA00B53CF0 /* AnimatedGIFWindowClasses.h */,
+				CC52A2E9224ECD0E00ADC1D0 /* Structs.h */,
+				CC52A2E7224ECC3D00ADC1D0 /* Shaders.metal */,
+				CC24BA981BF124350045BDC7 /* Supporting Files */,
+				CCC3B99B1C788F8E00FBE423 /* Options.xib */,
+				CC5E750E20FBCCBF0010ACDE /* About.xib */,
+				CCEF76C6218C83DB0050F7C9 /* Localizable.strings */,
+			);
+			path = AnimatedGIF;
+			sourceTree = "<group>";
+		};
+		CC24BA981BF124350045BDC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC1777E920A1E7DF0043C210 /* LICENSE.md */,
+				CC4486F01C8A3A50008520D2 /* thumbnail.png */,
+				CC4486F11C8A3A50008520D2 /* thumbnail@2x.png */,
+				CC24BA991BF124350045BDC7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CC24BA921BF124350045BDC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCED59B6225F92CA00B53CF0 /* AnimatedGIFWindowClasses.h in Headers */,
+				CC24BA9B1BF124350045BDC7 /* AnimatedGIFView.h in Headers */,
+				CC52A2EA224ECD2400ADC1D0 /* Structs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CC24BA941BF124350045BDC7 /* AnimatedGIF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC24BAA01BF124350045BDC7 /* Build configuration list for PBXNativeTarget "AnimatedGIF" */;
+			buildPhases = (
+				CC24BA901BF124350045BDC7 /* Sources */,
+				CC24BA911BF124350045BDC7 /* Frameworks */,
+				CC24BA921BF124350045BDC7 /* Headers */,
+				CC24BA931BF124350045BDC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedGIF;
+			productName = AnimatedGIF;
+			productReference = CC24BA951BF124350045BDC7 /* AnimatedGIF.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC24BA8C1BF124350045BDC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "ƒ3Solutions";
+				TargetAttributes = {
+					CC24BA941BF124350045BDC7 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = UXBT5US89Z;
+					};
+				};
+			};
+			buildConfigurationList = CC24BA8F1BF124350045BDC7 /* Build configuration list for PBXProject "AnimatedGIF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				es,
+				ja,
+				Base,
+			);
+			mainGroup = CC24BA8B1BF124350045BDC7;
+			productRefGroup = CC24BA961BF124350045BDC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC24BA941BF124350045BDC7 /* AnimatedGIF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC24BA931BF124350045BDC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1777EC20A1E95D0043C210 /* LICENSE.md in Resources */,
+				CCEF76C8218C83DB0050F7C9 /* Localizable.strings in Resources */,
+				CC4486F21C8A3A50008520D2 /* thumbnail.png in Resources */,
+				CCC3B9991C788F8E00FBE423 /* Options.xib in Resources */,
+				CC5E750C20FBCCBF0010ACDE /* About.xib in Resources */,
+				CC4486F31C8A3A50008520D2 /* thumbnail@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC24BA901BF124350045BDC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC52A2E8224ECC3D00ADC1D0 /* Shaders.metal in Sources */,
+				CC24BA9D1BF124350045BDC7 /* AnimatedGIFView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC5E750E20FBCCBF0010ACDE /* About.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC8F19B20FBD471007C9FAE /* de */,
+				CCC8F19C20FBD474007C9FAE /* es */,
+				CCC8F19D20FBD476007C9FAE /* ja */,
+				CCABA2A0218921D400E30E6C /* Base */,
+				71B93EBF228B7E8E00D5E409 /* en */,
+			);
+			name = About.xib;
+			sourceTree = "<group>";
+		};
+		CCC3B99B1C788F8E00FBE423 /* Options.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC3B99C1C788F9800FBE423 /* de */,
+				CC1073C41C78947900AC5F63 /* es */,
+				CC39BE001EDAD834008FCA5C /* ja */,
+				CCABA29F218921D300E30E6C /* Base */,
+				71B93EC1228B7EB700D5E409 /* en */,
+			);
+			name = Options.xib;
+			sourceTree = "<group>";
+		};
+		CCEF76C6218C83DB0050F7C9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEF76C7218C83DB0050F7C9 /* de */,
+				CCEF76C9218C83ED0050F7C9 /* es */,
+				CCEF76CA218C83F80050F7C9 /* ja */,
+				CCEF76CC218C8AFA0050F7C9 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC24BA9E1BF124350045BDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = AnimatedGIF;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC24BA9F1BF124350045BDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AnimatedGIF;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC24BAA11BF124350045BDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AnimatedGIF/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = net.fough3.AnimatedGIF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		CC24BAA21BF124350045BDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AnimatedGIF/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = net.fough3.AnimatedGIF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC24BA8F1BF124350045BDC7 /* Build configuration list for PBXProject "AnimatedGIF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC24BA9E1BF124350045BDC7 /* Debug */,
+				CC24BA9F1BF124350045BDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC24BAA01BF124350045BDC7 /* Build configuration list for PBXNativeTarget "AnimatedGIF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC24BAA11BF124350045BDC7 /* Debug */,
+				CC24BAA21BF124350045BDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC24BA8C1BF124350045BDC7 /* Project object */;
+}
